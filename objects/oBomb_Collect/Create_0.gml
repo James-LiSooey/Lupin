@@ -1,0 +1,1 @@
+player_collect = false;
