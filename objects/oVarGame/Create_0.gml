@@ -3,6 +3,15 @@
 #macro GREEN 0
 #macro BLUE 1
 
+#macro SWIPE_CONTROL 0
+#macro JOYSTICK_CONTROL 1
+
+//Set control type
+Controls = JOYSTICK_CONTROL;
+
+Joystick_Created = false;
+DeadZone = .2;
+
 //Input Queue Instantiate
 input_Queue = ds_queue_create();
 
