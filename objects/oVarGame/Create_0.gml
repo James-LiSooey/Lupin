@@ -23,6 +23,7 @@ height_buffer= 700;
 
 //player variables
 player_speed = 20;
+playerFriction = 1;
 
 //Enemy Controller Variables
 next_enemy_spawn_time = 35;

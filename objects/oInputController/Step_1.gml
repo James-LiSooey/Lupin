@@ -5,12 +5,6 @@ if(oVarGame.Controls = JOYSTICK_CONTROL)
 	{
 		create_joystick(mouse_x,mouse_y);
 	}
-	
-	if(mouse_check_button_released(mb_left))
-	{
-		remove_joystick();
-		speed = 0;
-	}
 	if(mouse_check_button(mb_left) and oVarGame.Joystick_Created)
 	{
 		run_joystick();
@@ -18,6 +12,22 @@ if(oVarGame.Controls = JOYSTICK_CONTROL)
 		{
 			speed = oVarGame.player_speed*.85*get_joystick_speed();
 			direction = get_joystick_direction();
+		}
+	}
+	
+	if(mouse_check_button_released(mb_left))
+	{
+		remove_joystick();
+	}
+	if(!mouse_check_button(mb_left))
+	{
+		with(oPlayer)
+		{
+			if(speed>oVarGame.playerFriction){
+				speed -= oVarGame.playerFriction;
+			}else{
+				speed = 0;
+			}
 		}
 	}
 }
