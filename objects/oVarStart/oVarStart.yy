@@ -1,28 +1,18 @@
 {
-    "id": "c37e63a6-2990-4663-8449-427c0f0532f1",
+    "id": "d072730e-0489-4696-b142-7495ef839ae2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oStartController",
+    "name": "oVarStart",
     "eventList": [
         {
-            "id": "50ba70c2-5a03-4fee-bb18-30b3a8954a0f",
+            "id": "2e215528-ed53-428a-8d3f-0ceeb83f559f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "c37e63a6-2990-4663-8449-427c0f0532f1"
-        },
-        {
-            "id": "754861c6-9b1b-4515-a67f-56a50f5f8537",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "c37e63a6-2990-4663-8449-427c0f0532f1"
+            "m_owner": "d072730e-0489-4696-b142-7495ef839ae2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
