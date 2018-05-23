@@ -1,28 +1,28 @@
 {
-    "id": "8f25819a-0097-42c8-9d87-c8e452323647",
+    "id": "12b648c4-4a5e-4d7f-adf6-51648f3d2838",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGUI",
+    "name": "oStart_Menu_Button",
     "eventList": [
         {
-            "id": "edbfc9db-14a4-4a66-bdff-cc28a9ff1689",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "8f25819a-0097-42c8-9d87-c8e452323647"
-        },
-        {
-            "id": "a0b52939-7b75-4161-80b3-6837a57e8682",
+            "id": "2b8ada76-539a-41e7-ac2a-7387f39de26a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8f25819a-0097-42c8-9d87-c8e452323647"
+            "m_owner": "12b648c4-4a5e-4d7f-adf6-51648f3d2838"
+        },
+        {
+            "id": "5802e7f5-4deb-4b04-b9a7-3294aec63d41",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "12b648c4-4a5e-4d7f-adf6-51648f3d2838"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "d1e48c56-cd73-4d4c-904b-b8d0d7061b58",
     "visible": true
 }

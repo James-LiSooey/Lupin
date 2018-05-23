@@ -1,3 +1,3 @@
 /// @Restart Game
 
-room_restart();
+room_goto(rmRestart);
