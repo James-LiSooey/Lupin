@@ -1,8 +1,8 @@
 {
-    "id": "a7d68efe-e762-430b-816b-429b81dde291",
+    "id": "5cac0d57-b5ee-40cd-a89d-119477b4294f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "get_high_scores",
+    "name": "save_score",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -30,3 +30,4 @@ ds_map_add(map_restart_menu_object, "Exit", oRestart_Exit_Button);
 
 #macro RestartMenuButtons oVarRestart.map_restart_menu_object
 instance_create_layer(0,0,"layer_gui",oRestartController);
+instance_create_layer(0,0,"layer_gui",oDrawRestartScore);

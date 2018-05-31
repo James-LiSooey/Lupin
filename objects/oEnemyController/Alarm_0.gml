@@ -16,7 +16,7 @@ with(oPlayer)
 	}
 }
 
-var type = irandom_range(0,1);
+var type = irandom_range(0,100);
 var angle = type*45;
 var rotate_speed = irandom_range(-1,1);
 if(rotate_speed == 0)
@@ -25,12 +25,14 @@ if(rotate_speed == 0)
 	rotate_speed = (rotate_speed*2)-1;	
 }
 
-if(type == 0){
+if(type <50){
 	enemy_bar_inst = instance_create_layer(enemy_x,enemy_y,"sublayer_bar", oEnemyBar_Green); 
+	type = 0;
 }
-else if(type == 1)
+else if(type >=50)
 {
 	enemy_bar_inst = instance_create_layer(enemy_x,enemy_y,"sublayer_bar", oEnemyBar_Blue); 
+	type =1;
 }
 
 var enemy_edge_inst = instance_create_layer(enemy_x,enemy_y,"sublayer_edge", oEnemyEdge); 
