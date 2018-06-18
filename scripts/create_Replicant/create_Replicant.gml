@@ -1,4 +1,4 @@
-var _xRange_Min = argument0;
+/*var _xRange_Min = argument0;
 var _xRange_Max = argument1;
 var _yRange_Min = argument2;
 var _yRange_Max = argument3;
@@ -42,3 +42,4 @@ ds_map_add(oVarGame.enemy_bar_to_edge_map,enemy_bar_inst,enemy_edge_inst);
 ds_map_add(oVarGame.enemy_edge_to_bar_map,enemy_edge_inst,enemy_bar_inst);
 
 
+*/

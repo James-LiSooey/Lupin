@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "29f48142-eb72-47f5-9bde-c81310ea39c6",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "8cf87f5b-8ffd-4aed-a6ee-cf879e7350e5",
             "Value": {
                 "id": "0f7c6779-5eaa-40e0-b611-b2ed65038fcd",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "999c9cd7-e118-425d-9f14-227c72a88d59",
+            "Value": {
+                "id": "3bab19b0-62b2-496f-9144-d13cd90ce1d1",
+                "resourcePath": "scripts\\create_button_text_object\\create_button_text_object.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9c538404-b994-457f-b11c-7350f96ef2af",
             "Value": {
                 "id": "5617819d-8586-452e-ae1b-c727c91edf41",
@@ -599,11 +615,27 @@
             }
         },
         {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "4aa79daf-5da9-4e83-8ba1-85a7ce493d2d",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
             "Key": "a1a277b5-1743-4d85-b22b-fd52d4edf1f0",
             "Value": {
                 "id": "c20b0e57-fc8b-4dd4-b47e-edbffd776cb9",
                 "resourcePath": "views\\a1a277b5-1743-4d85-b22b-fd52d4edf1f0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3c398dc-5b8c-4366-b52c-248379f3d4f1",
+            "Value": {
+                "id": "91609964-ce2f-4c19-850a-9d53ed9dd14b",
+                "resourcePath": "scripts\\draw_button_text\\draw_button_text.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -831,6 +863,14 @@
             }
         },
         {
+            "Key": "d91be04a-374e-4c59-a44d-c1a5eaf24930",
+            "Value": {
+                "id": "f38ceafb-b614-414f-b85d-53efbea4011e",
+                "resourcePath": "objects\\oButtonText\\oButtonText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9684330-14a5-4f1e-93cb-43bb2f3203c0",
             "Value": {
                 "id": "46596c7a-6b0d-4fb6-926c-4b60711e425c",
@@ -900,6 +940,14 @@
                 "id": "bb84d781-7774-4fe5-b46b-67b47b864147",
                 "resourcePath": "objects\\oEnemyController\\oEnemyController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "2d132bb8-4bed-4752-9b69-bc9d00b37bb3",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
             }
         },
         {
@@ -1056,7 +1104,9 @@
         "e0920171-b959-4331-83b2-5c91b4d43e55",
         "0ee0088f-9f81-416f-9e10-a0c7d694cb10",
         "5cac0d57-b5ee-40cd-a89d-119477b4294f",
-        "a7d68efe-e762-430b-816b-429b81dde291"
+        "a7d68efe-e762-430b-816b-429b81dde291",
+        "a3c398dc-5b8c-4366-b52c-248379f3d4f1",
+        "999c9cd7-e118-425d-9f14-227c72a88d59"
     ],
     "tutorial": ""
 }

@@ -1,6 +1,6 @@
 var _button_list = oVarRestart.list_restart_buttons;
 var _button_x = oVarRestart.button_x_init;
-var _button_y = oVarRestart.button_x_init;
+var _button_y = oVarRestart.button_y_init;
 
 for(counter = 0; counter<ds_list_size(_button_list);counter++)
 {

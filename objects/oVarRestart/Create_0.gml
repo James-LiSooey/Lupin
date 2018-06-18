@@ -13,7 +13,7 @@ start_button_height = 64*start_button_yscale;
 start_button_gap = start_button_height *1.5;
 
 button_x_init =  room_width/2;
-button_y_init = room_height/2;
+button_y_init = 40*room_height/100;
 
 //list of buttons
 list_restart_buttons = ds_list_create();
