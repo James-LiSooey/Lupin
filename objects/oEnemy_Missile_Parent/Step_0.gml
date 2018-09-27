@@ -8,24 +8,24 @@ if(alarm0 ==true)
 
 }
 
-if(x<100){
+if(x<sprite_width){
 	alarm[1] = random_range(45,75);
 	speed = 0;
-	x=100;
+	x=sprite_width+3;
 }
 if(x>room_width){
 	alarm[1] = random_range(45,75);;
 	speed = 0;
-	x = room_width;
+	x = room_width-sprite_width-3;
 }
-if(y<100){
+if(y<sprite_height){
 	alarm[1] = random_range(45,75);;
 	speed= 0;
-	y = 100;
+	y = sprite_height+3;
 }
-if(y>room_height-oVarGame.height_buffer){
+if(y>room_height-sprite_height){
 	alarm[1] = random_range(45,75);;
 	speed = 0;
-	y = room_height-oVarGame.height_buffer;
+	y = room_height-sprite_height-3;
 }
 

@@ -7,10 +7,15 @@
 Controls = oSettings.ControlSettings;
 
 Joystick_Created = false;
+Joystick_CenterX = 0;
+Joystick_CenterY = 0;
 DeadZone = .2;
 
 //Input Queue Instantiate
 input_Queue = ds_queue_create();
+
+//Swipe Input Queue Instantiate
+swipe_input_Queue = ds_queue_create();
 
 //create game controller
 instance_create_layer(0,0,"layer_controller",oGameController);

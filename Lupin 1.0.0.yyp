@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "5dc37bc0-29ed-427f-a141-2239f3071664",
+            "Value": {
+                "id": "630f8ac7-e3e0-4442-863a-161d742da7e0",
+                "resourcePath": "objects\\oInputControllerSwipe\\oInputControllerSwipe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e073dfd-6ab5-4514-9c4b-87cfc275aae3",
             "Value": {
                 "id": "cce189e5-e257-4b15-8fff-4c19edc537f3",

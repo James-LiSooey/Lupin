@@ -1,9 +1,11 @@
 
 
+/*
 if(place_meeting(x,y,oBorder)){
 	x=xprevious;
 	y=yprevious;
-	}
+}
+*/
 
 x = max(x,64);
 x = min(x,room_width-64);
