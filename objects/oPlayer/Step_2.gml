@@ -1,14 +1,5 @@
+x = max(x,(sprite_width/2));
+x = min(x,room_width-(sprite_width/2));
 
-
-/*
-if(place_meeting(x,y,oBorder)){
-	x=xprevious;
-	y=yprevious;
-}
-*/
-
-x = max(x,64);
-x = min(x,room_width-64);
-
-y = max(y,64);
-y = min(y, room_height-64);
+y = max(y,(sprite_height/2));
+y = min(y, room_height-(sprite_height/2));

@@ -24,19 +24,22 @@ instance_create_layer(0,0,"layer_controller",oGameController);
 height_buffer= 700;
 
 //player variables
-player_speed = 20;
+player_speed = 5;
+game_fps = 60;
+play_time = 1;
 playerFriction = 1;
 
 //Enemy Controller Variables
 next_enemy_spawn_time = 35;
-gate_spawn_rate = 60/2;
-missile_spawn_rate = 60/.5;
+gate_spawn_rate = 60;
+missile_spawn_rate = 240;
 
+enemy_skewer_spawn_rate = 40;
+enemy_missile_spawn_rate = 60;
+
+enemy_missile_speed = 6;
 enemy_randomize = 100;
-enemy_skewer_spawn_rate = 20;
-enemy_missile_spawn_rate = 30;
 
-enemy_missile_speed = 25;
 
 //hashmap for enemy bars and edges
 enemy_bar_to_edge_map = ds_map_create();

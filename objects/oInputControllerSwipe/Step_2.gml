@@ -15,7 +15,7 @@ if(oVarGame.Controls = JOYSTICK_CONTROL)
 		run_joystick();
 		with(oPlayer)
 		{
-			speed = oVarGame.player_speed*.85*get_joystick_speed();
+			speed = oVarGame.player_speed*(oVarGame.game_fps/60)*get_joystick_speed();
 			direction = get_joystick_direction();
 		}
 	}
@@ -28,8 +28,8 @@ if(oVarGame.Controls = JOYSTICK_CONTROL)
 	{
 		with(oPlayer)
 		{
-			if(speed>oVarGame.playerFriction){
-				speed -= oVarGame.playerFriction;
+			if(speed>oVarGame.playerFriction*(oVarGame.game_fps/60)){
+				speed -= oVarGame.playerFriction*(oVarGame.game_fps/60);
 			}else{
 				speed = 0;
 			}

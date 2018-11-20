@@ -8,5 +8,5 @@ create_enemy_follow = true;
 create_enemy_skewer = true;
 
 
-
+spawn_missile_counter = 0;
 

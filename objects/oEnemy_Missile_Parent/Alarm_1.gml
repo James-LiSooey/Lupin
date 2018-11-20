@@ -1,7 +1,4 @@
-/// @description Attack After Hitting Wall
+/// @description Prep for attack
 
-if(instance_exists(oPlayer))
-	{
-		point_direction(x,y,oPlayer.x,oPlayer.y)
-		motion_add(point_direction(x,y,oPlayer.x,oPlayer.y),oVarGame.enemy_missile_speed)
-	}
+image_speed = 2;
+alarm[2] = 40;

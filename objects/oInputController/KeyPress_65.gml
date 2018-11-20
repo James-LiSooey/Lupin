@@ -1,0 +1,1 @@
+oVarGame.game_fps = 10;
