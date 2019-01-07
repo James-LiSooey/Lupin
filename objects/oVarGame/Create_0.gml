@@ -21,7 +21,7 @@ swipe_input_Queue = ds_queue_create();
 instance_create_layer(0,0,"layer_controller",oGameController);
 
 //Room variables
-height_buffer= 700;
+height_buffer= 30;
 
 //player variables
 player_speed = 5;
@@ -31,10 +31,10 @@ playerFriction = 1;
 
 //Enemy Controller Variables
 next_enemy_spawn_time = 35;
-gate_spawn_rate = 60;
+gate_spawn_rate = 120;
 missile_spawn_rate = 240;
 
-enemy_skewer_spawn_rate = 40;
+enemy_skewer_spawn_rate = 20;
 enemy_missile_spawn_rate = 60;
 
 enemy_missile_speed = 6;

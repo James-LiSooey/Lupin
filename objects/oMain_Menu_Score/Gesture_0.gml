@@ -1,1 +1,1 @@
-room_goto(rmHighScore);
+room_goto(rmTopScore);
